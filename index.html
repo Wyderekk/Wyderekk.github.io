@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="wyderekk" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/gif" href="https://cdn.discordapp.com/attachments/767767622531940364/864206783203901450/ezgif-2-7dfbb1ca4f15.gif">
+    <title>wyderekk</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
+</head>
+
+<body>
+    <audio loop="" preload="auto" id="audio">
+        <source src="assets/rip.mp3" type="audio/mp3">
+    </audio>
+    <video loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+        <source src="assets/thunder.mp4" type="video/mp4">
+    </video>
+    <input type="checkbox" autocomplete="off" id="overlay-toggle">
+    <div class="overlay fullscreen">
+        <div id="center">
+            <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                <span class="hover"
+                      style="font-family: 'Roboto Mono', font-size: 30px; monospace; font-size: 0.6em; text-shadow: 0 0 0.40em white;">
+                    click
+                    to enter
+                </span>
+            </label>
+        </div>
+    </div>
+    <section class="fullscreen text-content">
+        <div id="center">
+            <span id="typed"
+                  style="font-size: 30px; font-family: 'Roboto Mono', monospace; text-shadow: 0 0 0.40em white;"></span>
+        </div>
+</body>
+
+<script src="assets/text.js"></script>
+<script src="assets/audioPlayer.js"></script>
+  
+</html>
